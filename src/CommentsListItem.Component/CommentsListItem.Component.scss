@@ -1,0 +1,52 @@
+@import "../variables/variables.scss";
+
+.comments-list__item {
+  position: relative;
+  width: 100%;
+  padding: 1rem;
+  border-bottom: 1px solid grey;
+
+  &__name {
+    color: $accent-color;
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-family: "Calibri", sans-serif;
+    margin-bottom: 1rem;
+  }
+
+  &__text {
+    font-family: "Calibri", sans-serif;
+    font-size: 1rem;
+    max-width: 80%;
+    word-wrap: break-word;
+  }
+
+  &__date {
+    display: inline-block;
+    position: absolute;
+    right: 3%;
+    bottom: 5%;
+    padding-bottom: 0.5rem;
+    text-align: right;
+    font-size: 0.8rem;
+    font-family: "Calibri", sans-serif;
+    font-weight: bold;
+    color: #ababab;
+  }
+
+  &__delete {
+    position: absolute;
+    top: 20%;
+    right: 3%;
+    color: #ababab;
+    cursor: pointer;
+  }
+
+  &__refactor {
+    position: absolute;
+    top: 20%;
+    right: 7%;
+    color: #ababab;
+    cursor: pointer;
+  }
+}

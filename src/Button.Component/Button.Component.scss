@@ -1,0 +1,16 @@
+@import '../variables/variables.scss';
+
+.form__btn {
+  width: 100%;
+  padding: 0.5rem;
+  background-color: $accent-color;
+  color: $button-text-color;
+  font-size: 1rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  border-radius: 0.5rem;
+  margin-top: 0.5rem;
+  border: 1px solid $accent-color;
+  outline: none;
+  font-weight: bold;
+}

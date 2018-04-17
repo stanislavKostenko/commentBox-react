@@ -1,0 +1,27 @@
+@import '../variables/variables.scss';
+
+.form__textarea {
+  width: 100%;
+  min-height: 150px;
+  padding: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  border-radius: 0.5rem;
+  border: 2px solid $general-color;
+  margin-top: 1rem;
+  outline: none;
+  font-size: 1rem;
+  resize: none;
+
+  &:focus {
+    border: 2px solid $accent-color;
+  }
+
+  &::-webkit-input-placeholder {
+    font-family: "Arial",sans-serif;
+  }
+
+  &:focus::-webkit-input-placeholder {
+    color: transparent
+  }
+}

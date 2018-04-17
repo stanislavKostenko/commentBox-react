@@ -1,0 +1,13 @@
+@import '../variables/variables.scss';
+
+.form-wrapper {
+  margin: 0 auto;
+  max-width: 500px;
+  width: 100%;
+}
+
+.form {
+  width: 100%;
+  margin-top: 50%;
+  transform: translateY(-50%);
+}
